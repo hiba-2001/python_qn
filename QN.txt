@@ -1,0 +1,126 @@
+                                 
+ 
+                                                    PYTHON-QUESTIONS
+                            *****************************************************************
+
+
+1. What are python modules?
+
+   Python module is a file containing python definition and statements.a module can define functions,classes and variables.it also include runnerable code.grouping related codes in a module make the code easier to understand.
+
+2. What are built-in data-types in python?
+
+   Text Type     : str
+   Numeric Types : int, float, complex
+   Sequence Types: list, tuple, range
+   Mapping Type  : dict
+   Set Types     : set, frozenset
+   Boolean Type  : bool
+   Binary Types  : bytes, bytearray, memoryview
+   None Type     : NoneType
+
+3. Defference between mutable and immutable datatypes in python?
+
+  * IMMUTABLE (unchangable):
+ 
+     These are of in-built types like int, float, bool, string, unicode, tuple.An immutable object can’t be changed after it            created.
+ 
+  * MUTABLE (changable)
+    
+     These are of type list, dict, set . Custom classes are generally mutable.A mutable object can change after it is created.
+
+4. What is name space in python?
+
+   A namespace is a system that has a unique name for each and every object in Python. An object might be a variable or a method.       Python itself maintains a namespace in the form of a Python dictionary.
+
+5. What are defference between list and tuple in python?
+          
+
+            LIST                                                           TUPLE
+        
+        * []                                                            * ()
+   	* Lists are mutable	                                        * Tuples are immutable
+	* The implication of iterations is Time-consuming               * The implication of iterations is comparatively Faster
+	* The list is better for performing operations,                 * Tuple data type is appropriate for accessing the elements
+           such as insertion and deletion.	              
+	* Lists consume more memory	                                * Tuple consumes less memory as compared to the list
+	* Lists have several built-in methods	                        * Tuple does not have many built-in methods.
+	* cannot used as key for dictionaries                           * can be used as key for dictionaries                            
+
+
+6. What are local variables and global variables in python?
+
+     Global variables are those which are not defined inside any function and have a global scope. the global variables are accessible      throughout the program and inside every function.
+
+     Local variables are those which are defined inside a function and its scope is limited to that function only.this are accessible       only inside the function in which it was initialized.
+
+7. What do *args and **kwargs means?
+  
+    *args and **kwargs are special symbols for passing arguments
+    
+
+     The special syntax *args in function definitions in python is used to pass a variable number of arguments to a function. It is      used to pass a non-key worded, variable-length argument list. 
+
+     The special syntax **kwargs in function definitions in python is used to pass a keyworded, variable-length argument list. We use      the name kwargs with the double star. The reason is that the double star allows us to pass through keyword arguments
+
+8. What is memory managed in python?
+
+
+   Memory management in Python involves a private heap containing all Python objects and data structures. The management of this    private heap is ensured internally by the Python memory manager. The Python memory manager has different components which deal with    various dynamic storage management aspects, like sharing, segmentation, preallocation or caching.
+      
+9. What are the key features of python?
+
+   1. Free and Open Source
+   2. Easy to code
+   3. Easy to Read
+   4. Object-Oriented Language
+   5. High-Level Language
+   6. Extensible feature
+   7. Easy to Debug
+   8. Python is a Portable language
+   9. Interpreted Language: 
+  10. Large Standard Library 
+  11. Dynamically Typed Language
+  12. Frontend and backend development
+  13. Allocating Memory Dynamically
+
+
+10.  What type of language is python?
+   
+     Python is an interpreted, object-oriented, high-level programming language
+
+
+11. How is python is an intrepreted language?
+    
+    Python converts source code written by the programmer into intermediate language which is again translated into the native     language / machine language that is executed. So Python is an Interpreted language.
+
+12. What are data structures?
+   
+    A data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can     be accessed and updated efficiently.
+
+13. Major dfference between pyhton2 and python3?
+
+       
+            PYTHON 2                                                          PYTHON 3
+
+     * Python 2 is a version of Python programming language which will     *  Python 3 is a version of Python programming language             get minimum support and additional features in future.                 which is continually adding new features and bugsfixed.
+      
+     * it is not compulsory to use parenthesis.                            * it is compulsory to use parenthesis.
+
+     * raw_input() function is used to get input from the user.            * raw_input() function is not available.   
+ 
+14.What is type conversion in python?
+
+    It is the process of converting a datatype into another datatype.implicit type conversion performed by the a python intrepreter     only.explicit type conversion is performed by the user by explicitly using type conversion functions in the program.
+
+
+15.What are the applications of python?
+ 
+   * web develepment
+   * mechine learning and artificial intelligence
+   * data science
+   * game develepment
+   * audio and visaul applications
+   * softaware develepment
+   * buisiness applications
+   * web scraping applications
